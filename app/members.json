@@ -1,0 +1,150 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "img": "/members/luan-bueno.png",
+            "alt":  "Foto de Luan Bueno",
+            "name": "Luan Bueno",
+            "role": "Composição de trilha e operação de som",
+            "description": "'Músicas ruins é comigo mesmo'",
+            "background_color": "#fad351",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/bueno.of/",
+            "portfolio": "https://soundcloud.com/luan-bueno-988665124"
+        },
+        {
+            "id": 2,
+            "img": "/members/bruno-silverio.png",
+            "alt":  "Foto de Bruno Silvério",
+            "name": "Bruno Silvério",
+            "role": "Direção",
+            "description": "'Diretor bom, é diretor de circo'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 3,
+            "img": "/members/rebecca-leitao.png",
+            "alt":  "Foto de Gabrielle Leme",
+            "name": "Gabrielle Leme",
+            "role": "Desenho de luz e operação",
+            "description": "'Músicas ruins é comigo mesmo'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 4,
+            "img": "/members/bruno-silverio.png",
+            "alt":  "Foto de Pombo Maça",
+            "name": "Pombo Maça",
+            "role": "Produção de vídeo e assistente de palco",
+            "description": "'Músicas ruins é comigo mesmo'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 5,
+            "img": "/members/nana-pequini.png",
+            "alt":  "Foto de Nana Pequini",
+            "name": "Nana Pequini",
+            "role": "Atuação",
+            "description": "'Palhaça também é atriz'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 6,
+            "img": "/members/fernanda-mendonca.png",
+            "alt":  "Foto de Fernanda Mendonça",
+            "name": "Fernanda Mendonça",
+            "role": "Assistente de palco",
+            "description": "'Atrapalhadas? Com certeza!'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 7,
+            "img": "/members/rebecca-leitao.png",
+            "alt":  "Foto de Rebecca Leitão",
+            "name": "Rebecca Leitão",
+            "role": "Produção",
+            "description": "'Produção de que? Também não sei'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        },
+        {
+            "id": 8,
+            "img": "/members/sarah-agata.png",
+            "alt":  "Foto de Sarah Ágata",
+            "name": "Sarah Ágata",
+            "role": "Assistente de palco",
+            "description": "'Uma não basta, tem que ser duas!'",
+            "background_color": "#ffffff",
+            "background_img": "/members/bg-luan-bueno.png",
+            "instagram": "https://www.instagram.com/luanbuenomusic/",
+            "portfolio": "https://luanbuenomusic.wixsite.com/luanbueno"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Botton oficial",
+            "price": 5.00,
+            "description": "Botton oficial do espetáculo Córrego da Laranja",
+            "type": [
+                {
+                    "id": 1,
+                    "name": "Logo oficial",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Fuscão",
+                    "img": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Impactante",
+                    "img": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Maluquice",
+                    "img": ""
+                }
+            ],
+            "img": "./assets/products/botton-oficial.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Ecobag oficial",
+            "price": 20.00,
+            "description": "Ecobag oficial do espetáculo Córrego da Laranja, pra você que é sustentável e estiloso ao mesmo tempo!",
+            "type": [
+                {
+                    "id": 1,
+                    "name": "Preta",
+                    "img": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Branca",
+                    "img": ""
+                }
+            ],
+            "img": "./assets/products/ecobag-oficial.jpg"
+        }
+    ]
+}
