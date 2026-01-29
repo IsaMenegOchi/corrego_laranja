@@ -1,0 +1,25 @@
+{
+    "banners": [
+        {
+            "id": 1,
+            "title": "Miquelina",
+            "image": "/banners/banner_miquelina.png",
+            "link": "/colecao-nova",
+            "color": "#3b82f6"
+        },
+        {
+            "id": 2,
+            "title": "Exploração Criativa",
+            "image": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop",
+            "link": "/explorar",
+            "color": "#a855f7"
+        },
+        {
+            "id": 3,
+            "title": "Design Minimalista",
+            "image": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1887&auto=format&fit=crop",
+            "link": "/design",
+            "color": "#ec4899"
+        }
+    ],
+}
