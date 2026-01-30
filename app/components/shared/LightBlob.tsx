@@ -15,9 +15,9 @@ export const LightBlob = ({
 }) => {
   const position =
     side === "left"
-      ? "top-24 left-0"
+      ? "top-24 left-50"
       : side === "right"
-        ? "top-24 right-0"
+        ? "top-24 right-50"
         : "top-24 left-1/2 -translate-x-1/2";
 
   return (
@@ -29,7 +29,7 @@ export const LightBlob = ({
         rounded-full
         mix-blend-screen
         blur-[100px]
-        opacity-50
+        opacity-80
         pointer-events-none
       `}
       style={{

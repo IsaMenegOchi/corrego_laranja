@@ -2,9 +2,10 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-
+import { LightBlob } from "./components/shared/LightBlob";
 import CardProfile from "./components/layout/CardProfile/CardProfile";
 import BannerCarousel from "./components/shared/BannerCarousel";
+
 import appData from "./datas.json";
 
 const members = appData.members;
@@ -41,10 +42,12 @@ export default function Home() {
       </section>
 
       {/* About the group */}
-      <section id="about-group">
-        <h2 className="text-5xl">Sobre o grupo</h2>
-        <div className="flex row">
-          <p className="text-2xl">
+      <section id="about-group" className="relative flex flex-row m-10">
+        <div className="mt-15 items-center z-10">
+          <h2 className="text-7xl mb-15">
+            SOBRE O <span className="text-(--red-color)">GRUPO</span>
+          </h2>
+          <p className="text-4xl pr-30 ">
             A Variedades do Córrego da Laranja Azeda é um grupo formado por
             artistas moradores da Zona Oeste de São Paulo.
             <br />
@@ -56,19 +59,27 @@ export default function Home() {
             Nossa estratégia é pensar o riso como ferramenta para a criação de
             um teatro popular, acessível e crítico.
           </p>
-          <Image
-            src="/sobre_grupo.png"
-            width={300}
-            height={300}
-            alt="localização do córrego"
-          ></Image>
         </div>
+        <LightBlob
+          color="var(--red-color)"
+          duration={10}
+          delay={0}
+          side="right"
+        />
+
+        <Image
+          src="/sobre_grupo.png"
+          width={500}
+          height={500}
+          alt="localização do córrego"
+          className="basis-1/3 z-10"
+        ></Image>
       </section>
 
       {/* About the name of the group */}
       <section id="about-name">
-        <h2 className="text-5xl">Sobre o nome</h2>
-        <div className="flex row">
+        <h2 className="text-5xl m-15">Sobre o nome</h2>
+        <div className="flex row mx-15">
           <Image
             src="/sobre_nome.png"
             width={300}
