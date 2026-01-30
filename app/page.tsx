@@ -42,12 +42,12 @@ export default function Home() {
       </section>
 
       {/* About the group */}
-      <section id="about-group" className="relative flex flex-row m-10">
-        <div className="mt-15 items-center z-10">
+      <section id="about-group" className="relative flex flex-row mx-50 mt-30">
+        <div className="mt-15 items-center z-10 pr-30">
           <h2 className="text-7xl mb-15">
             SOBRE O <span className="text-(--red-color)">GRUPO</span>
           </h2>
-          <p className="text-4xl pr-30 ">
+          <p className="text-4xl leading-12">
             A Variedades do Córrego da Laranja Azeda é um grupo formado por
             artistas moradores da Zona Oeste de São Paulo.
             <br />
@@ -77,20 +77,29 @@ export default function Home() {
       </section>
 
       {/* About the name of the group */}
-      <section id="about-name">
-        <h2 className="text-5xl m-15">Sobre o nome</h2>
-        <div className="flex row mx-15">
-          <Image
-            src="/sobre_nome.png"
-            width={300}
-            height={300}
-            alt="localização do córrego"
-          ></Image>
-          <p className="text-2xl">
+      <section id="about-name" className="relative flex flex-row mx-50 mt-40">
+        <LightBlob
+          color="var(--primary-color)"
+          duration={10}
+          delay={0}
+          side="left"
+        />
+        <Image
+          src="/sobre_nome.png"
+          width={420}
+          height={420}
+          alt="localização do córrego"
+          className="z-10"
+        ></Image>
+        <div className="justify-items-end pl-30">
+          <h2 className="text-7xl mb-15">
+            SOBRE O <span className="text-(--primary-color)">NOME</span>
+          </h2>
+          <p className="text-4xl text-right leading-12">
             O Córrego da Laranja Azeda é um afluente do rio Tietê localizado na
             cidade de Barueri/SP, cruzando os bairros do Jardim Belval e Jardim
             Silveira, chegando até o município de Jandira.
-            <br />
+            <br /> <br />
             Este território esta presente na vida do grupo, sendo um espaço de
             passagem e de encontro.
           </p>
@@ -131,7 +140,7 @@ export default function Home() {
       {/* Gallery */}
       <section
         id="gallery"
-        className="grid grid-flow-col grid-rows-12 grid-cols-6 gap-6 w-full h-162.5 px-8"
+        className="mx-50 grid grid-flow-col grid-rows-12 grid-cols-6 gap-6 h-130 px-8"
       >
         {gridItems.map((item) => (
           <div
