@@ -14,6 +14,17 @@
 
 h2 { font-family: var(--font-limelight); }
 p { font-family: var(--font-lora); }
+
+::-webkit-scrollbar{
+    width: 0.5vw;
+    background: #000;
+}
+::-webkit-scrollbar-thumb{
+    background: -webkit-linear-gradient(transparent,var(--primary-color));
+    background: linear-gradient(transparent,var(--primary-color));
+    border-radius: 20px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
