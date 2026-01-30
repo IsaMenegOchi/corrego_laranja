@@ -91,6 +91,7 @@ export default function Home() {
           alt="localização do córrego"
           className="z-10"
         ></Image>
+        
         <div className="justify-items-end pl-30">
           <h2 className="text-7xl mb-15">
             SOBRE O <span className="text-(--primary-color)">NOME</span>

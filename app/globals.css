@@ -12,6 +12,8 @@
   --dark-primary-color: #bc6600;
 }
 
+h2 { font-family: var(--font-limelight); }
+p { font-family: var(--font-lora); }
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
